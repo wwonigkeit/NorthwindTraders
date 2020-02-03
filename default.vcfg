@@ -5,6 +5,7 @@
 
 [[network]]
   ip = "dhcp"
+  http = ["44376"]
 
 [system]
   disk-cache = "40 MiB"
