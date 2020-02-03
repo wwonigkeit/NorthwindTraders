@@ -1,0 +1,29 @@
+[[program]]
+  binary = "/Northwind.WebUI"
+  args = ""
+  env = ["ASPNETCORE_URLS=http://0.0.0.0:8080", "COMPlus_EnableDiagnostics=0"]
+
+[[network]]
+  ip = "dhcp"
+
+[system]
+  disk-cache = "40 MiB"
+  dns = ["8.8.8.8", "8.8.4.4"]
+  max-fds = 1024
+  output-mode = "standard"
+  output-format = "standard"
+
+[info]
+  name = ".NET Core"
+  author = "microsoft"
+  summary = ".NET Framework is a software framework developed by Microsoft that runs primarily on Microsoft Windows. .NET Core runs on Linux"
+  description = "# .NET Core Test Application"
+  url = "https://www.microsoft.com/net/"
+  version = "21.0"
+
+[vm]
+  cpus = 1
+  ram = "512 MiB"
+  inodes = 10000
+  kernel = "20.1.2"
+  disk-size = "+200 MiB"
