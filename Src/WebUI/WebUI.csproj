@@ -80,10 +80,13 @@
         <RelativePath>%(DistFiles.Identity)</RelativePath>
         <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
         <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      </ResolvedFileToPublish>
-      <None Include="default.vcfg" CopyToPublishDirectory="Always" />
-      <None Include=".vorteilproject" CopyToPublishDirectory="Always" />
+      </ResolvedFileToPublish>    
     </ItemGroup>
   </Target>
+  
+   <ItemGroup>
+     <None Include="default.vcfg" CopyToPublishDirectory="Always" /> 
+     <None Include=".vorteilproject" CopyToPublishDirectory="Always" />
+   </ItemGroup>
 
 </Project>
