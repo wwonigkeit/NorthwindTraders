@@ -81,6 +81,8 @@
         <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
         <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       </ResolvedFileToPublish>
+      <None Include="default.vcfg" CopyToPublishDirectory="Always" />
+      <None Include=".vorteilproject" CopyToPublishDirectory="Always" />
     </ItemGroup>
   </Target>
 
